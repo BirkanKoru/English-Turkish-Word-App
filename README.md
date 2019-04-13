@@ -4,5 +4,4 @@ App Version: v0.1
 * When you learn new word, you can add word to this app.
 * You can add grammar notes.
 * Word quiz with words which is you wrote.
-OR
-Just glance at the codes.
+*OR just glance at the codes.
