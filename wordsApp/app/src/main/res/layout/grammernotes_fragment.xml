@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/listNotes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></ListView>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/btnaddNoteFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="40dp"
+            app:backgroundTint="@android:color/holo_orange_dark"
+            app:rippleColor="@color/black"
+            app:srcCompat="@drawable/ic_menu_add" />
+
+    </FrameLayout>
+
+</LinearLayout>
